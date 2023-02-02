@@ -1,0 +1,68 @@
+h1 {
+    color: blue;
+    /*transform: rotate(90deg);*/
+}
+/* Id Selector*/
+#course-list {
+    margin: -10% 5% 0 60%;
+    box-shadow: green;
+    text-shadow: navy;
+    opacity: revert;
+}
+/* Class selector*/
+.hide-me {
+    display: none;
+}
+
+.bold-orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.underline-me {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+/* Descendent selector*/
+#greeting p {
+    margin-left: 30px;
+}
+
+ul li {
+    text-decoration: revert;
+    font-family: "Brush Script MT";
+}
+
+/*Child selector*/
+#greeting>p {
+    border: 4px dashed green;
+    border-radius: inherit;
+    padding-left: 50px;
+}
+
+/*Next element selector*/
+h3+ol {
+    text-decoration: underline;
+}
+
+/*Combined selector*/
+p, h1, section {
+    background: aquamarine;
+}
+
+/* HTML attribute selector*/
+[name=email] {
+    background: orange;
+}
+
+/*Position*/
+#hot-news {
+    position: sticky;
+
+}
+/*
+body {
+    font-face: ;
+}
+to install new font
+ */

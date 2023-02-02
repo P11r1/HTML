@@ -1,0 +1,29 @@
+* {
+    background-color: orange;
+}
+
+h1 {
+    font-family: "Yu Gothic Medium";
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    margin: 100px;
+    padding: 1px;
+}
+
+#p1 {
+    border: 3px solid red;
+}
+
+#p2 {
+    border: 4px dotted yellow;
+}
+
+#p3 {
+    border: 4px dotted brown;
+}

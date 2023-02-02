@@ -1,0 +1,39 @@
+/*Pseudo classes*/
+[name=password]:hover {
+    background-color: magenta;
+    margin-left: 60px;
+}
+
+#register:first-child {
+    text-align: right;
+}
+
+#signup:nth-child(2) {
+    background: darkorange;
+}
+
+a:link {
+    color: darkred;
+    font-size: smaller;
+}
+
+a:visited {
+    color: darkviolet;
+    font-family: "Comic Sans MS";
+}
+
+/*Mobile phone*/
+@media screen and (max-width: 480px) {
+    [name=password]:hover {
+        background-color: blue;
+        margin-bottom: 60px;
+    }
+}
+
+/*Tablets*/
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    [name=password]:hover {
+        background-color: yellow;
+        margin-top: 60px;
+    }
+}

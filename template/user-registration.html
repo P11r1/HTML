@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SDA System- User registration</title>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/pseudo.css">
+</head>
+<body>
+ <div id="register">
+   <h3>Signup</h3>
+   <p>Enter the details below</p>
+   <form id="signup" name="signup" method="post" action="index.html">
+     <label for="first-name">First name:</label>
+     <input name="first-name" id="first-name" type="text" value="Marko" readonly minlength="3" maxlength="25"/>
+     <br/><br/>
+     <label for="last-name">Last name:</label>
+     <input name="last-name" id="last-name" type="text" value="Piir"/>
+     <br/><br/>
+     <label for="email">Email:</label>
+     <input name="email" id="email" type="email" required placeholder="abc@sda.ee"/>
+     <br/><br/>
+     <label for="password">Password:</label>
+     <input name="password" id="password" type="password" required/>
+     <br/><br/>
+     <label for="male">Gender</label>
+     <input type="radio" id="male" name="gender" /> Male
+     <input type="radio" id="female" name="gender" /> Female
+     <br/><br/>
+     <label for="mathematics">Favourite subjects:</label>
+     <input type="checkbox" id="mathematics" name="favourite-subjects" /> Mathematics
+     <input type="checkbox" id="science" name="favourite-subjects" /> Science
+     <input type="checkbox" id="software" name="favourite-subjects" checked/> Software
+     <br/><br/>
+     <label for="join-date">
+       Join date:
+     </label>
+     <input type="date" id="join-date" name="join-date"/>
+     <br/><br/>
+     <label for="age">Age:</label>
+     <input type="number" id="age" name="age" min="0"/>
+     <br/><br/>
+     <label for="favourite-food">Favourite food:</label>
+     <select id="favourite-food" name="favourite-food">
+       <option value="pizza">Pizza</option>
+       <option value="sandwich" disabled>Sandwich</option>
+       <option value="blood-sausage" selected>Blood sausage</option>
+     </select>
+     <br/><br/>
+     <label for="address">Address:</label>
+     <textarea id="address" name="address" rows="8" cols="40"></textarea>
+     <input type="hidden" id="active" name="active" value="yes"/>
+     <br/><br/>
+     <input type="submit" value="Signup">
+     <input type="reset" value="Clear form">
+
+   </form>
+ </div>
+<a href="https://facebook.com">Facebook</a>
+<a href="http://ohtuleht.ee">LinkedIn</a>
+</body>
+</html>
